@@ -20,6 +20,8 @@
 
     #sbutton { color: white; background-color: blueviolet; font-size: 24px;
     border: 2px solid white; padding: 15px; font-family: Arial; }
+
+    .rqd { color: #ffe97d; font-weight: 3px; }
 </style>
 
 <body>
@@ -27,14 +29,15 @@
 
     <div
         <form action="#" method="post">
-            <label for="myname">Name: </label><br/>
+            <label for="myname">Name: <span class="rqd">*</span></label><br/>
             <input type="text" name="myname" id="myname" required/><br/><br/><br/>
 
-            <label for="subject">Subject: </label><br/>
+            <label for="subject">Subject: <span class="rqd">*</span></label><br/>
             <input type="text" name="subject" id="subject" placegolder="CS 101" required/><br/><br/><br/>
 
              <textarea name="tbody" id="tbody" placegolder="Enter message..." required/>
             </textarea><br/><br/><br/>
+            <span class="rqd">*</span>
 
             <label for="attach">Attachments: </label><br/>
             <input type="file" name="attach" id="attach"/><br/><br/><br/>
