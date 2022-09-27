@@ -12,6 +12,8 @@
 <style>
     body { background-color: purple;}
 
+    div { background-color: black;}
+
     h1, label { color: white; font-family: monospace; }
 
     textarea, input { background-color: #c166d4;  color: purple; font-family: Arial; }
@@ -24,21 +26,22 @@
     <h1>Contact Me</h1>
 
     <div
-    <form action="#" method="post">
-        <label for="myname">Name: </label><br/>
-        <input type="text" name="myname" id="myname" required/><br/><br/><br/>
+        <form action="#" method="post">
+            <label for="myname">Name: </label><br/>
+            <input type="text" name="myname" id="myname" required/><br/><br/><br/>
 
-        <label for="subject">Subject: </label><br/>
-        <input type="text" name="subject" id="subject" placegolder="CS 101" required/><br/><br/><br/>
+            <label for="subject">Subject: </label><br/>
+            <input type="text" name="subject" id="subject" placegolder="CS 101" required/><br/><br/><br/>
 
-        <textarea name="tbody" id="tbody" required/>
-            Enter message...
-        </textarea><br/><br/><br/>
+             <textarea name="tbody" id="tbody" required/>
+                Enter message...
+            </textarea><br/><br/><br/>
 
-        <label for="attach">Attachments: </label><br/>
-        <input type="file" name="attach" id="attach"/><br/><br/><br/>
+            <label for="attach">Attachments: </label><br/>
+            <input type="file" name="attach" id="attach"/><br/><br/><br/>
 
-        <input type="submit" value="Submit" id="sbutton" />
-    </form>
+            <input type="submit" value="Submit" id="sbutton" />
+        </form>
+    </div>
 </body>
 </html>
