@@ -1,0 +1,8 @@
+body { background-image: linear-gradient(rgb(252, 231, 137), rgb(255, 217, 0)); }
+
+table { background-color: rgb(85, 6, 100);
+        border-color: rgb(212, 167, 255); }
+
+th { font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande';
+     color: rgb(212, 167, 255);}
+
