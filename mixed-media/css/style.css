@@ -2,7 +2,7 @@ body { background-image: linear-gradient(rgb(255, 247, 212), rgb(255, 230, 0)); 
 
 table { background-color: rgb(85, 6, 100);
         border-color: rgb(212, 167, 255); 
-        min-width: 500px;}
+        min-width: 6in;}
 
 th { font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande';
      color: rgb(212, 167, 255);}
