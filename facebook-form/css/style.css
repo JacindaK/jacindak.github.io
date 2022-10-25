@@ -1,12 +1,12 @@
-body { background-color: #edf0f5; color: purple; }
+body { background-color: #edf0f5; color: grey }
 
 h1, label { color: grey; font-family: monospace; }
 
 #flutag { color: grey; font-family: monospace; font-weight: 3px; }
 
-textarea, input { background-color: grey;  color: purple; font-family: Arial; }
+textarea, input { background-color: white;  color: grey; font-family: Arial; }
 
 #sbutton { color: #659d50;  font-size: 24px; border: 2px solid white; 
            padding: 15px; font-family: Arial; }
 
-.rqd { color: #ffe97d; font-weight: 3px; }
+.rqd { color: red; font-weight: 3px; }
