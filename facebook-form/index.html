@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta lang="en">
+    <meta viewport="width=device-width, initial-scale=1">
+    <title>Contact Me</title>
+    <!--<link rel="stylesheet" href="css/style.css">-->
+    <!--<source src="js/script.js" defer>-->
+</head>
+
+<body>
+    <h1>Contact Me</h1>
+
+    <div>
+        <form action="#" method="post">
+            <label for="myname"><h4>Name: </h4><span class="rqd">*</span></label><br/>
+            <input type="text" name="myname" id="myname" required/><br/><br/>
+
+            <label for="subject"><h4>Subject: </h4><span class="rqd">*</span></label><br/>
+            <input type="text" name="subject" id="subject" placegolder="CS 101" required/><br/><br/>
+
+             <textarea name="tbody" id="tbody" placeholder="Enter message..." required/>
+            </textarea><br/><br/>
+            <span class="rqd">*</span>
+
+            <label for="attach"><h4>Attachments: </h4></label><br/>
+            <input type="file" name="attach" id="attach"/><br/><br/>
+
+            <label for="priority"><h4>Priority: </h4></label><br/>
+            <select name="priority" id="priority" required/>
+            <span class="rqd">*</span>
+                <option disabled select value>--Select and option--</option>
+                <option value="low">Low</option>
+                <option value="medium">Medium</option>
+                <option value="high">High</option>
+                <option value="crit">Critical</option>
+            </select><br/><br/>
+
+            <label for="flwup" id="flutag"><h3>Do you want a follow-up email?</h3></label>
+            <input type="radio" name="flwup" id="flwup" value="yes"/>
+            <label for="flwup" class="flwup">Yes</label>
+            <input type="radio" name="flwup" id="flwup" value="no"/>
+            <label for="flwup" class="flwup">No</label>
+            <br/><br/><br/>
+
+            <input type="submit" value="Submit" id="sbutton" />
+        </form>
+    </div>
+</body>
+</html>
