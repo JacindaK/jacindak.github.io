@@ -15,22 +15,35 @@
 
     <div>
         <form action="#" method="post">
-            <textarea name="tbody" id="tbody" placeholder="First Name" required/>
+            <textarea name="tbody" id="tbody" placeholder="First Name">
             </textarea>
 
-            <textarea name="tbody" id="tbody" placeholder="Last Name" required/>
+            <textarea name="tbody" id="tbody" placeholder="Last Name">
             </textarea>
 
-            <textarea name="tbody" id="tbody" placeholder="Your Email" required/>
+            <textarea name="tbody" id="tbody" placeholder="Your Email">
             </textarea>
 
-            <textarea name="tbody" id="tbody" placeholder="Re-enter Email" required/>
+            <textarea name="tbody" id="tbody" placeholder="Re-enter Email">
             </textarea>
 
-            <textarea name="tbody" id="tbody" placeholder="New Password" required/>
+            <textarea name="tbody" id="tbody" placeholder="New Password">
             </textarea>
 
-            
+            <label for="priority"><h4>Priority: </h4></label><br/>
+            <select name="priority" id="priority">
+                <option disabled select value>--Select and option--</option>
+                <option value="low">Low</option>
+                <option value="medium">Medium</option>
+                <option value="high">High</option>
+                <option value="crit">Critical</option>
+            </select>
+
+            <label for="flwup" id="flutag"><h3>Do you want a follow-up email?</h3></label>
+            <input type="radio" name="flwup" id="flwup" value="yes"/>
+            <label for="flwup" class="flwup">Yes</label>
+            <input type="radio" name="flwup" id="flwup" value="no"/>
+            <label for="flwup" class="flwup">No</label>
 
             <input type="submit" value="Submit" id="sbutton" />
         </form>
