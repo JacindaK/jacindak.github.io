@@ -1,16 +1,12 @@
-body { background-color: purple; color: purple; }
+body { background-color: #edf0f5; color: purple; }
 
-div { background-color: black;}
+h1, label { color: grey; font-family: monospace; }
 
-h1, label { color: white; font-family: monospace; }
+#flutag { color: grey; font-family: monospace; font-weight: 3px; }
 
-#flutag { color: white; font-family: monospace; font-weight: 3px; }
+textarea, input { background-color: grey;  color: purple; font-family: Arial; }
 
-textarea, input { background-color: #c166d4;  color: purple; font-family: Arial; }
-
-#sbutton { color: white; background-color: blueviolet; font-size: 24px;
-           border: 2px solid white; padding: 15px; font-family: Arial; }
+#sbutton { color: #659d50;  font-size: 24px; border: 2px solid white; 
+           padding: 15px; font-family: Arial; }
 
 .rqd { color: #ffe97d; font-weight: 3px; }
-
-.flwup { color: white; font-family: Arial; font-weight: 2px; }
