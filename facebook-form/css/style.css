@@ -1,6 +1,6 @@
 body { background-color: #edf0f5; color: grey }
 
-h1, label { color: grey; font-family: "Freight Sans Bold", "Lucida Grande", Tahoma, Verdana, Arial, sans-serif; }
+h1, label { color: black; font-family: "Freight Sans Bold", "Lucida Grande", Tahoma, Verdana, Arial, sans-serif; }
 
 #flutag { color: grey; font-family: "Freight Sans", "Lucida Grande", Tahoma, Verdana, Arial, sans-serif; 
           font-weight: 3px; }
