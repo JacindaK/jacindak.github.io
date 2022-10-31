@@ -8,5 +8,5 @@ h1, label { color: black; font-family: "Freight Sans Bold", "Lucida Grande", Tah
 textarea, input { background-color: white;  color: grey; font-family: "Freight Sans", "Lucida Grande", Tahoma, 
                   Verdana, Arial, sans-serif; }
 
-#sbutton { color: white;  font-size: 24px; background-color: #659d50; padding: 15px; font-family: "Freight Sans Bold", 
+button { color: white;  font-size: 24px; background-color: #659d50; padding: 15px; font-family: "Freight Sans Bold", 
            "Lucida Grande", Tahoma, Verdana, Arial, sans-serif; }
