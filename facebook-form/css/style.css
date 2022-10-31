@@ -1,12 +1,11 @@
-body { background-color: #edf0f5; color: grey }
+body { background-color: #edf0f5; padding-top: 10%; padding-bottom: 10%; padding-left: 25%;
+       padding-right: 25%; vertical-align: bottom; }
 
 h1, label { color: black; font-family: "Freight Sans Bold", "Lucida Grande", Tahoma, Verdana, Arial, sans-serif; }
 
-#flutag { color: grey; font-family: "Freight Sans", "Lucida Grande", Tahoma, Verdana, Arial, sans-serif; 
-          font-weight: 3px; }
+#first, #last { width: 100px; margin: 5px; border-style: double; }
 
-textarea, input { background-color: white;  color: grey; font-family: "Freight Sans", "Lucida Grande", Tahoma, 
-                  Verdana, Arial, sans-serif; }
+#email, #password { width: 223px; margin: 5px; border-style: double; }
 
-button { color: white;  font-size: 24px; background-color: #659d50; padding: 15px; font-family: "Freight Sans Bold", 
-           "Lucida Grande", Tahoma, Verdana, Arial, sans-serif; }
+button { color: white;  font-size: 24px; background-color: #659d50; width: 320px; border-color: #659d50; 
+         border-radius: 5px; border-width: 5px; }
